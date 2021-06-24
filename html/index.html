@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Aplico SEO con palabras clave -->
+    <meta name="keywords" content="PERROS, GATOS, MASCOTAS, PATAS, PERDIDO, ENCONTRADO">
+    <title>Inicio</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header class="header">
+
+            <a href="index.html"><img class="logo" src="/imagenes/logo.jpg" alt="Toque para ir al inicio"></a>
+            <h1>Inicio</h1>
+
+            <nav class="menuNavegacion">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="mision.html">Misión</a>
+                    </li>
+
+                    <li>
+                        <a href="busquedas.html">Búsquedas</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <article class="article">
+                <h2>Bienvenido a Pupinis!</h2>
+                <h3>Te ayudamos con esa mascota encontrada o perdida!</h3>
+                <p>La forma? Muy sencilla, ve hacia las <a class="busqueda" href="Busquedas2.html">búsquedas</a> y si no
+                    encuentras tu mascota, completa estos datos
+                    para publicar:</p>
+
+            </article>
+            <!-- Acá el usuario podrá completar información con un contenedor con select y options, al final tenemos un boton -->
+            <div class="formularioPublicacion">
+                <select class="selectFormularioPublicacion">
+                    <option value="selectDefault" selected>Encontre</option>
+                    <option value="selectPerdi">Se perdio</option>
+
+                </select>
+                <p>Mascota</p>
+                <select class="selectFormularioPublicacion">
+                    <option value="defaultPerro" selected>Perro</option>
+                    <option value="selectGato">Gato</option>
+                    <option value="selectOtro">Otro</option>
+
+                </select>
+
+
+                <p>Nombre</p>
+
+                <!-- se deja vacio para simular que el usuario puede completar su nombre tipeando, las demas opciones fueron seteadas para elegir alguna. -->
+                <input class="selectFormularioPublicacion" />
+
+
+
+                </select>
+
+                <p>Color</p>
+
+                <select class="selectFormularioPublicacion">
+                    <option value="defaultNegro" selected>Negro</option>
+                    <option value="selectBlanco">Blanco</option>
+                    <option value="selectMarron">Marron</option>
+
+                </select>
+
+                <p>Edad</p>
+
+                <select class="selectFormularioPublicacion">
+                    <option value="defaultCachorro" selected>Cachorro/a</option>
+                    <option value="selectJoven">Joven</option>
+                    <option value="selectAvanzado">Avanzado/a</option>
+
+                </select>
+
+                <p>Tamaño</p>
+
+                <select class="selectFormularioPublicacion">
+                    <option value="defaultChico" selected>Chico/a</option>
+                    <option value="selectMediano">Mediano</option>
+                    <option value="selectGrande">Grande</option>
+
+                </select>
+
+                <p>Zona</p>
+
+                <select class="selectFormularioPublicacion">
+                    <option value="defaultNorte" selected>Zona Norte</option>
+                    <option value="selectSur">Zona Sur</option>
+                    <option value="selectEste">Zona Este</option>
+                    <option value="selectOeste">Zona Oeste</option>
+
+                </select>
+
+                <form action="ejemplo.php" method="get">
+                    <p class="formularioPublicacionPersona">Nombre y Apellido: <input type="text" name="nombre"
+                            size="40"></p>
+                    <p class="formularioPublicacionPersona">Edad: <input type="number" name="nacido" min="1" max="110">
+                    </p>
+                    <p class="formularioPublicacionPersona">Sexo:
+                        <input type="radio" name="hm" value="h"> Hombre
+                        <input type="radio" name="hm" value="m"> Mujer
+                    </p>
+
+
+                    <p class="formularioPublicacionPersona">Email: <input type="text" name="email" size="40"></p>
+                    <p class="formularioPublicacionPersona">Telefono/Celular:<input type="text" name="telCel" size="40">
+                    </p>
+                    <p class="formularioPublicacionPersona">Suba una foto de la mascota:</p>
+                    <div>
+                        <input type="file"  id="customFileLang" lang="es">
+                        <label  for="customFileLang"></label>
+                    </div>
+
+                    <input class="formularioPublicacionPersona" type="submit" value="Enviar">
+                    <input class="formularioPublicacionPersona" type="reset" value="Borrar">
+
+                </form>
+            </div>
+
+        </main>
+        <!-- Aside para mostrar las ultimas publicaciones que se cargo en la seccion de búsquedas -->
+        <aside class="sidebar">
+            <div>
+                <p>Ultimas publicaciones:</p>
+                <img src="/imagenes/perdidos/gato1.jpg" alt="gato negro perdido">
+                <p>Perdido - Mascota: Gato, Nombre : Rufino, Color: Negro, Edad : Joven, Tamaño : Mediano, Zona :
+                    Noroeste, Caseros. </p>
+                </article>
+                <div>
+                    <img src="/imagenes/perdidos/perro1.jpg" alt="foto de perro perdido">
+                    <p>Perdido - Mascota: Perro, Nombre : Max, Color: Marron y Blanco, Edad : Adulto, Tamaño : Grande,
+                        Zona : Sur, Banfield.</p>
+                    </article>
+                    <div>
+                        <img src="/imagenes/perdidos/perro2.jpg" alt="foto de perro perdido">
+                        <p>Encontrado - Mascota: Perro, Nombre : Toreto, Color: Blanco con manchas Edad : Joven, Tamaño
+                            : Normal, Zona : CABA, Belgrano.</p>
+                        </article>
+        </aside>
+
+    </div>
+
+    <!--TESTIMONIOS-->
+
+    <h3>Testimonios:</h3>
+    <!-- Se utiliza clase contenedor para centrar contenedores hijos y darles las mismas caracteristicas -->
+    <div class="contenedor">
+        <!-- Se utiliza contenedorTestimonio para darle las mismas propiedades a cada contenedor hijo -->
+        <div class="contenedorTestimonio">
+
+            <img  src="/imagenes/encuentros/gatoencuentro.jpg" alt="abrazo entre gato y su familiar">
+
+            <p class=testimonioCard> "Gracias a la publicación que hicimos en Pupinis pudimos encontrar a Pancho en
+                pocos días."</p>
+            <p class="firmaTestimonio"> Luciano</p>
+        </div>
+        <div class="contenedorTestimonio">
+
+            <img src="/imagenes/encuentros/facetoface.jpg" alt="cara a cara hombre y perro">
+
+            <p class=testimonioCard>"Que se escapara Tommy fue un momento dificil...gracias a Pupinis logramos
+                encontrarlo."
+            <p class="firmaTestimonio"> Esteban</p>
+        </div>
+        <div class="contenedorTestimonio">
+
+            <img src="/imagenes/encuentros/gorra1.jpg" alt="re encuentro de señor con su perro">
+
+            <p class=testimonioCard> "Agradecido con esta página!! hicieron fácil lo dificil..ahora con Donnie no nos
+                separamos más"
+            <p class="firmaTestimonio"> Roberto</p>
+        </div>
+        <div class="contenedorTestimonio">
+
+            <img  src="/imagenes/encuentros/señora.jpg" alt="mujer abraza a perro">
+
+            <p class=testimonioCard> "El momento del re-encuentro fue hermoso...super ordenado todo gracias pupiniss!!!"
+            <p class="firmaTestimonio"> Laura</p>
+        </div>
+        <div class="contenedorTestimonio">
+
+            <img src="/imagenes/encuentros/barbijo-perro.jpg" alt="chica con barbijo le hace una caricia a perro">
+
+            <p class=testimonioCard>"Feliz con todo el proceso, todos muy atentos, super fácil, los voy a recomendar
+                gracias!!"
+            <p class="firmaTestimonio"> Patricia</p>
+        </div>
+
+        <footer class="footer">
+            <p>Comuniquese con nosotros en nuestras redes sociales:</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="mailto:info@pupinis.com.ar"><img class="iconoRedes" src="/imagenes/iconoEmail.png" alt="Imagen con link al correo predeterminado"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com.ar"><img class="iconoRedes" src="/imagenes/iconoFB.png" alt="Imagen con link a facebook"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com.ar"><img class="iconoRedes" src="/imagenes/iconoIG.png" alt="Imagen con link a instagram"></a>
+                    </li>
+
+                </ul>
+            </nav>
+            <p> Copyright 2021 © Pupinis! Todos los derechos reservados.</p>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

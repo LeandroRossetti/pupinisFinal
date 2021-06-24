@@ -1,0 +1,104 @@
+/* Reinicio */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+
+.fotos {
+    height: 50%;
+    width: 50%;
+}
+
+.busqueda {
+    color: white;
+    text-decoration: underline;
+
+    :hover {
+        cursor: pointer;
+        background: blue;
+
+    }
+
+}
+
+.logo {
+    margin: 1%;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.testimonios {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+
+}
+
+.formularioPublicacion {
+
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    color: red;
+
+}
+
+
+.testimonioCard {
+    display: block;
+    letter-spacing: 1px;
+    font-size: small;
+    justify-content: center;
+
+
+}
+
+.firmaTestimonio {
+
+    font-weight: 900;
+    margin-left: 5em;
+
+}
+
+.selectFormularioPublicacion {
+
+    margin: 1.6em auto;
+}
+
+.iconoRedes {
+    border-radius: 50%;
+    width: 25px;
+
+}
+
+/* agrego clase a columna busquedas */
+img {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    border-style: solid;
+
+
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+

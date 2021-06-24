@@ -1,0 +1,18 @@
+footer {
+
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    width: 100%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    grid-column: 1/-1;
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
