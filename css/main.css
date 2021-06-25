@@ -277,7 +277,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("https://radioexpresiva.com/expresiva/wp-content/uploads/2019/09/perro-riendo.jpg"); }
+  background-image: url(../imagenes/perro-riendo.jpg); }
 
 .contenedor404 {
   text-align: center;
