@@ -12,11 +12,8 @@
   width: 50%; }
 
 .busqueda {
-  color: white;
+  color: #3F8AEB;
   text-decoration: underline; }
-  .busqueda :hover {
-    cursor: pointer;
-    background: blue; }
 
 .logo {
   margin: 1%;
@@ -59,7 +56,9 @@ img {
   display: flex;
   padding: 5px;
   flex-wrap: wrap;
-  border-style: solid; }
+  border-style: solid;
+  background-color: black;
+  color: white; }
 
 .column {
   flex: 25%;
@@ -70,17 +69,16 @@ img {
 
 body {
   background-color: #51c878;
-  font-family: 'Manjari', sans-serif;
-  text-align: center;
-  color: #000000; }
+  font-family: "Manjari", sans-serif;
+  text-align: center; }
   body h1 {
     font-size: 32px;
     margin: 0%;
-    font-weight: bold; }
-
-.fotos {
-  height: 50%;
-  width: 50%; }
+    font-weight: bold;
+    color: white; }
+  body p {
+    font-family: "Manjari", sans-serif;
+    color: white; }
 
 .menuNavegacion {
   background-image: linear-gradient(to left, black, #51c878); }
@@ -203,7 +201,7 @@ a {
   margin: 1.6em auto;
   background-color: #51c878; }
 
-footer {
+.footer {
   background-color: black;
   color: #ffffff;
   padding: 10px;
@@ -212,7 +210,7 @@ footer {
   max-width: 1000px;
   margin: 1.6em auto;
   grid-column: 1/-1; }
-  footer nav ul {
+  .footer nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
@@ -271,6 +269,30 @@ footer {
   border: 1px solid #aaa;
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
   border-radius: .3em; }
+
+.contenedorPadre404 {
+  background-color: #51c878;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://radioexpresiva.com/expresiva/wp-content/uploads/2019/09/perro-riendo.jpg"); }
+
+.contenedor404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: black;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.9); }
+
+.boton {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: green;
+  padding: 10px 15px;
+  border-radius: 5px; }
 
 /* MEDIA QUERIES */
 /*aplicando responsive para pantallas de 768px*/

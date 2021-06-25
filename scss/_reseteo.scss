@@ -15,14 +15,10 @@
 }
 
 .busqueda {
-    color: white;
+    color: #3F8AEB;
     text-decoration: underline;
 
-    :hover {
-        cursor: pointer;
-        background: blue;
-
-    }
+  
 
 }
 
@@ -89,7 +85,8 @@ img {
     padding: 5px;
     flex-wrap: wrap;
     border-style: solid;
-
+    background-color: black;
+    color:white;
 
 }
 
