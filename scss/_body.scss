@@ -14,7 +14,11 @@ body {
   p{
     font-family: $tipoLetra;
     color:white;
+    margin: 0;
   }
-
+ul,ol{
+  margin-bottom: 0;
+  padding-left: 0;
+}
 }
 

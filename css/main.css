@@ -78,7 +78,11 @@ body {
     color: white; }
   body p {
     font-family: "Manjari", sans-serif;
-    color: white; }
+    color: white;
+    margin: 0; }
+  body ul, body ol {
+    margin-bottom: 0;
+    padding-left: 0; }
 
 .menuNavegacion {
   background-image: linear-gradient(to left, black, #51c878); }
