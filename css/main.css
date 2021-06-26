@@ -59,6 +59,9 @@ img {
   border-style: solid;
   background-color: black;
   color: white; }
+  .row img {
+    width: 200px;
+    height: 250px; }
 
 .column {
   flex: 25%;
