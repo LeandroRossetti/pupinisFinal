@@ -38,3 +38,12 @@
         flex:100%;
     }
 }
+
+
+@media (max-width:700px){
+    .formularioPublicacionPersona>input{
+      max-width: 80%;
+      
+    }
+   
+}
